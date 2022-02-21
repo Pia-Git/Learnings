@@ -1,0 +1,17 @@
+{
+    "name": "pia/learnings",
+    "authors": [
+        {
+            "name": "Pia Sinzig",
+            "email": "pia.sinzig@check24.de"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psr11\\": "psr11/"
+        }
+    }
+}
