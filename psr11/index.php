@@ -17,10 +17,10 @@ $factories = [Foo::class => FooFactory::class];
 
 $manager = new ServiceManager($factories);
 
-$ivan = $manager->get(Foo::class);
-echo $ivan->getId() . PHP_EOL;
-$ivan = $manager->get(Foo::class);
-echo $ivan->getId() . PHP_EOL;
-$ivan = $manager->get(Foo::class);
-echo $ivan->getId() . PHP_EOL;
+$foo = $manager->get(Foo::class);
+echo $foo->getId() . PHP_EOL;
+$foo = $manager->get(Foo::class);
+echo $foo->getId() . PHP_EOL;
+$foo = $manager->get(Foo::class);
+echo $foo->getId() . PHP_EOL;
 
